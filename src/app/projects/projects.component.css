@@ -1,0 +1,23 @@
+.projects {
+  background-color: #0a9396;
+  color: white;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.my-link {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+  text-decoration: none;
+  font-weight: light;
+}
+
+.my-link:hover {
+  color: #fd9a35;
+}

@@ -1,0 +1,6 @@
+<div class="navbar-menu">
+  <a *ngFor="let content of contents"
+    routerLink="/content/{{content.id}}">
+    {{content.name}}
+  </a>
+</div>
