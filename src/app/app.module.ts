@@ -34,7 +34,7 @@ import { AppRoutingModule } from './app-routing.module';
     ContentComponent,
     NavbarComponent,
     MessagesComponent,
-   Technologies1Component,
+    Technologies1Component,
     Technologies2Component, 
     ProjectsComponent,
     // PresentationComponent,

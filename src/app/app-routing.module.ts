@@ -12,14 +12,23 @@ import { Technologies2Component } from './tehnologies2/tehnologies2.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PresentationComponent } from './presentation/presentation.component';
 
+import { TechnologyComponent } from './technology/technology.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { DomainsComponent } from './domains/domains.component';
+import { EducationComponent } from './education/education.component';
+import { LanguagesComponent } from './languages/languages.component';
+
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent },
-  { path: 'detail/:id', component: HeroDetailComponent },
-  { path: 'heroes', component: HeroesComponent },
+  { path: '', redirectTo: '/about', pathMatch: 'full' },
   { path: 'content/:id', component: ContentComponent },
-  { path: 'navbar', component: NavbarComponent }
+  { path: 'navbar', component: NavbarComponent },
+  { path: 'content/ABOUT', component: PresentationComponent },
+  { path: 'content/TECHNOLOGIES', component: TechnologyComponent },
+  { path: 'content/EXPERIENCE', component: ExperienceComponent },
+  { path: 'content/DOMAINS', component: DomainsComponent },
+  { path: 'content/EDUCATION', component: EducationComponent },
+  { path: 'content/LANGUAGES', component: LanguagesComponent }
 ];
 
 @NgModule({

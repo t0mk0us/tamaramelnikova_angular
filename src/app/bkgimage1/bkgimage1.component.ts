@@ -13,7 +13,7 @@ export class Bkgimage1Component {
   constructor() {
 
       this.id = 1;
-      this.url = 'file:///C:/Users/React_apps/tomkous-portfolio/src/images/bkgrounds/CompMind1.jpg';
+      this.url = '/assets/images/bkgrounds/CompMind1.jpg';
   }
 
 }

@@ -6,5 +6,4 @@ export const CONTENTS: Content[] = [
   { id: 3, name: 'EXPERIENCES' },
   { id: 4, name: 'DOMAINS' },
   { id: 5, name: 'EDUCATION' },
-  { id: 6, name: 'LANGUAGES' },
 ];
